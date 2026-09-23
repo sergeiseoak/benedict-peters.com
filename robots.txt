@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://bulhaber.com/sitemap.xml
+Sitemap: https://benedict-peters.com/sitemap.xml
