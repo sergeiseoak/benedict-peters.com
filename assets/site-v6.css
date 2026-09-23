@@ -7,3 +7,77 @@
 .convert-first .ft-kicker{display:inline-flex;align-items:center;gap:.45rem;margin-bottom:.55rem;padding:.3rem .65rem;border-radius:999px;background:rgba(255,190,32,.16);border:1px solid rgba(255,208,85,.38);color:#ffd86b;font-size:.76rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
 .convert-first strong,.convert-first p{position:relative;z-index:1}.convert-first .cta{position:relative;z-index:2;box-shadow:0 8px 24px rgba(255,177,18,.25)}
 @media(max-width:700px){.convert-first:before{font-size:82px;right:-10px;top:-12px}.convert-first:after{display:none}}
+
+/* v8 final first conversion banner */
+.convert-first{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:34px;
+  min-height:300px;
+  padding:42px 46px;
+  border:2px solid #e9a600;
+  border-radius:24px;
+  background-image:linear-gradient(90deg,rgba(91,22,7,.97) 0%,rgba(125,37,10,.94) 43%,rgba(125,37,10,.56) 66%,rgba(125,37,10,.15) 100%),url('/assets/Fortune Tiger Branded CTA.webp');
+  background-size:cover;
+  background-position:center;
+  box-shadow:0 20px 44px rgba(70,28,3,.20);
+}
+.convert-first:before{display:none}
+.convert-first>div{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  flex:1 1 650px;
+  max-width:690px;
+}
+.convert-first .ft-kicker{
+  display:inline-flex;
+  align-items:center;
+  width:auto;
+  margin:0 0 20px;
+  padding:9px 16px;
+  border:1px solid rgba(255,198,58,.65);
+  border-radius:999px;
+  background:rgba(101,42,8,.72);
+  color:#ffd45e;
+  font-size:14px;
+  font-weight:900;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+  line-height:1.2;
+}
+.convert-first strong{
+  display:block;
+  width:100%;
+  margin:0 0 12px;
+  color:#fff;
+  font-size:clamp(28px,3.1vw,43px);
+  line-height:1.12;
+  letter-spacing:-.02em;
+}
+.convert-first p{
+  margin:0;
+  max-width:660px;
+  color:#fff2dc;
+  font-size:18px;
+  line-height:1.65;
+}
+.convert-first>.cta{
+  flex:0 0 auto;
+  min-width:230px;
+  padding:18px 28px;
+  border-radius:16px;
+  font-size:18px;
+  white-space:nowrap;
+  background:linear-gradient(180deg,#ffd14b,#f3a30b);
+}
+@media(max-width:850px){
+  .convert-first{display:block;min-height:430px;padding:28px 24px;background-image:linear-gradient(0deg,rgba(91,22,7,.98) 0%,rgba(105,27,7,.9) 58%,rgba(105,27,7,.25) 100%),url('/assets/Fortune Tiger Branded CTA.webp');background-position:center top}
+  .convert-first>div{max-width:none}
+  .convert-first .ft-kicker{margin-bottom:16px;font-size:12px}
+  .convert-first strong{font-size:30px}
+  .convert-first p{font-size:16px}
+  .convert-first>.cta{display:inline-block;margin-top:20px;min-width:0;white-space:normal}
+}
