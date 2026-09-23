@@ -1,1 +1,1 @@
-Bul Haber static site. Deploy the contents of this folder to Cloudflare Pages. _redirects contains the two requested 301 referral routes. HERO buttons use only /info/ (en-NG) or /more-info/ (pt-BR).
+Fortune Tiger static site. Deploy the contents of this folder to Cloudflare Pages. _redirects contains the two requested 301 1xCasinos. HERO buttons use only /info/ (en-NG) or /more-info/ (pt-BR).
